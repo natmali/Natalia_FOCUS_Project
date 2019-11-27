@@ -26,9 +26,11 @@ library(kableExtra)
 
 
 # Introduction
+
 My name is Natalia Malinowski and I am a PhD student at CSIRO in conjunction with the University of Western Australia. Prior to starting my PhD journey, I had achieved a Bachlor of Biomedical Science and a Master of Infectious Disease. I coach Synchronised Swimming and do Polish Folkloric Dance in my spare time on top of holding down a couple of part time jobs. Data School has taught me so many skills that I have been able to carry across to my PhD work. I am now able to code, and finally understand some statistics! 
 
 # My Project
+
 Climate change is a hot topic worldwide with Australia witnessing first hand the catastrophic effects that climate change has on us and our environment. Australia's drying climate is forcing water utilities to look into alternative ways to store and distribute water. This means that the burden on drinking water storage tanks (DWSTs) is increasing. Free-Living Amoebae (FLA) and their associated amoebae resistance bacteria (ARB) can cause severe and debilitating diseases in humans. *Naegleria fowleri* is the causative agent of primary amoebic meningoencephalitis (PAM) which has a worlwide mortality rate of 97%. In Western Australia water utilites has not assessed the presence and abundance of FLA and ARBs in our DWSTs and this study aims to address this. 
 
 
@@ -70,38 +72,31 @@ if needed: see eg. Table \@ref(tab:mytable) and Figure \@ref(fig:standard-plot)
 
 # My Digital Toolbox
 
-What digital tools have you been using in your project? Which ones have you learned since starting 
-Data School?
+Here is a list of tools that I have been using since I started Data School FOCUS. I have found the online cheatsheets  as well as forums really helpful when troubleshooting. 
 
-You can use all the usual R markdown features in writing a project summary, including lists:
 
-* R - dplyr, ggplot, ...
-* Python
-* SQL
+* tidyverrse
+* read.xl
+* R - dplyr, 
+* ggplot
 
-## Favourite tool (optional)
-
-Is there a tool/package/function in particular that you've enjoyed using? Give it a special shout out here.
 
 ![](https://raw.githubusercontent.com/tidyverse/ggplot2/master/man/figures/logo.png){.pull-right width=100px}
 
-No prizes for guessing mine:
 
 # My time went ...
 
-What parts of the project took the most time and effort? Were there any surprising challenges you
-encountered, and how did you solve them?
+The 10 weeks flew by! 
+Initially I was skeptical about needing to tidy my data in 'R'. Tidying my data in excel would only take me a couple of hours whereas tidying in 'R' was going to take me a really long time. However, I stuck with the process and was so surprised by my ability to troubleshoot and figure things out on my own! This was the most challenging but also, most rewarding part of Data Schoo FOCUS for me! 
+
 
 # Next steps
 
-What further steps do you wish your project could take? Or are there any new digital skills that you
-are keen to develop as a result of your involvement in the Data School?
+As I have only just finished collecting my data for my PhD project, I am excited to use the skills learned during the visualisation and statistics sessions to start analysing my data. 
+
 
 # My Data School Experience
 
-This poster is mostly about your synthesis project. However we would also like to hear about other
-parts of your Data School experience. What aspects of the program did you really enjoy? How have you
-been applying the skills you have learned in your daily work? Have you been able to transfer this 
-knowledge to your team members? Concrete examples demonstrating this would be useful here
-(meetings/talks/collaborations/new roles). Any descriptions of the personal impact the program has 
-had are welcome here as well!
+My experience has been one of great relief. Relief, that I have finally come out of a course and understood everything that I was meant to understand! From data management; visualisation; statistics to presentations, I have gained many skills and knowledge that I have already been able to apply to my everyday work. I have applied data management measures to ensure that all of my files and folders are correctly labelled with a clear filing system, I have managed to tidy and combine my datasets in ‘R’ and am in the process of starting my visualisation and analysis. 
+I feel like the possibilities are endless, thank you so much for this opportunity!
+
