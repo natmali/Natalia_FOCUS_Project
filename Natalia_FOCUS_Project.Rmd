@@ -59,19 +59,21 @@ knitr::kable(head(tanks_data, n = 55), format = "html", caption = "qPCR detectio
 ![](resources/img/nf.png){width=400px}
 
 </center>
-  
+
+&nbsp;
+
 
 **Plots from R**
-```{r standard-plot, out.width='60%', fig.align='center', fig.height= 4, fig.width=6, fig.cap="Yet another gapminder plot"}
-gapminder %>% 
-  filter(year == 1987) %>% 
-  ggplot(aes(x = gdpPercap, y = lifeExp, colour = continent, size = pop)) +
+```{r standard-plot, out.width='60%', fig.align='center', fig.height= 4, fig.width=6, fig.cap="Naegleria spp. found in WA DWSTs."}
+tanks_data %>% 
+  ggplot(aes(x = Temperature, y = Free_Chlorine, colour = Tank,  shape = Naegleria_spp)) +
   geom_point() +
-  scale_x_log10(labels = function(b) format(b, scientific = F)) +
-  scale_size(trans = "sqrt", guide = "none") +
   scale_color_brewer(palette = "Set1") +
   theme_linedraw() +
   theme(legend.position = "bottom")
+
+
+
 
 ```
 
