@@ -5,7 +5,7 @@ author:  Natalia Malinowski
 affiliation: CSIRO Land and Water # Or group/team
 photo: resources/img/nm.jpg
 
-short_title: Optional short title
+short_title: Brain Eating Amoebae in West Australia
 
 output: DSreport::project_summary
 ---
@@ -36,23 +36,30 @@ Climate change is a hot topic worldwide with Australia witnessing first hand the
 
 ## Preliminary results
 
-This section will demonstrate the different visuals you might want use to show off your 
-project. Don't feel the need to go overboard, this is supposed to give a taste of the work you are
-doing rather than being a publication ready document.
+The table and figures below show the results I collected from nine of the WA metropolitan DWSTs. This is just an example of what I have managed to accomplish in R thus far.  
 
-To get tables formatting correctly, use `knitr::kable` to convert the table to html format. If
-you also want to have alternate row highlighting, pass the result to `kable_styling('striped')` 
-from the `kableExtra` package.
 
 **Tables**
-```{r mytable, out.width='100%', echo = T}
-knitr::kable(head(gapminder, n = 5), format = "html", caption = "A table of data") %>% 
-  kable_styling("striped")
+```{r mytable, out.width='100%', echo = F}
+
+tanks_data <- read.csv("resources/data/watercorp_qpcr_tidied_data_rmd.csv") %>% 
+  view()
+
+knitr::kable(head(tanks_data, n = 55), format = "html", caption = "qPCR detections of FLA and ARB in a WA metropolitan DWST") %>% 
+  kable_styling("striped") %>% 
+  kableExtra::scroll_box(width = "100%", height = "300px")
 ```
 
-**Images from a file**
+&nbsp;
 
-![](resources/img/tidyverse.png){width=100px}
+
+**Image of N.fowleri on NNA**
+
+<center>
+![](resources/img/nf.png){width=400px}
+
+</center>
+  
 
 **Plots from R**
 ```{r standard-plot, out.width='60%', fig.align='center', fig.height= 4, fig.width=6, fig.cap="Yet another gapminder plot"}
@@ -65,10 +72,9 @@ gapminder %>%
   scale_color_brewer(palette = "Set1") +
   theme_linedraw() +
   theme(legend.position = "bottom")
+
 ```
 
-Your figure and table captions are automatically numbered and can be referenced in the text
-if needed: see eg. Table \@ref(tab:mytable) and Figure \@ref(fig:standard-plot)
 
 # My Digital Toolbox
 
@@ -77,7 +83,7 @@ Here is a list of tools that I have been using since I started Data School FOCUS
 
 * tidyverrse
 * read.xl
-* R - dplyr, 
+* R - dplyr
 * ggplot
 
 
